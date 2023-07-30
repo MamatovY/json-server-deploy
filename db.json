@@ -1,40 +1,290 @@
 {
-  "posts": [
+  "popular": [
+    {
+      "id": 3,
+      "title": "Woman Bag Black",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum doloremque aliquid error dicta consectetur eum aperiam veniam dolorum inventore eos? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum doloremque aliquid error dicta consectetur eum aperiam veniam dolorum inventore eos? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum doloremque aliquid error dicta consectetur eum aperiam veniam dolorum inventore eos?",
+      "image": "https://i.imgur.com/bt0YIYR.jpg",
+      "price": 300,
+      "slug": "woman-bag-black",
+      "discount": 0,
+      "ratings": 3.0,
+      "category": 2,
+      "category_name": "bags"
+    },
+    {
+      "id": 4,
+      "title": "Nike Air Red",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum doloremque aliquid error dicta consectetur eum aperiam veniam dolorum inventore eos? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum doloremque aliquid error dicta consectetur eum aperiam veniam dolorum inventore eos? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum doloremque aliquid error dicta consectetur eum aperiam veniam dolorum inventore eos?",
+      "image": "https://i.imgur.com/D7hkUyF.jpg",
+      "price": 150,
+      "slug": "nike-air-red",
+      "discount": 0,
+      "ratings": 0.0,
+      "category": 1,
+      "category_name": "Snickers"
+    },
+    {
+      "id": 5,
+      "title": "Woman Bag Red",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum doloremque aliquid error dicta consectetur eum aperiam veniam dolorum inventore eos? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum doloremque aliquid error dicta consectetur eum aperiam veniam dolorum inventore eos? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum doloremque aliquid error dicta consectetur eum aperiam veniam dolorum inventore eos?",
+      "image": "https://i.imgur.com/D7hkUyF.jpg",
+      "price": 350,
+      "slug": "woman-bag-red",
+      "discount": 0,
+      "ratings": 0.0,
+      "category": 2,
+      "category_name": "bags"
+    }
+  ],
+  "products": [
     {
       "id": 1,
-      "title": "1st post",
-      "datetime": "July 16, 2021 11:47:39 AM",
-      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "title": "Snicker",
+      "description": "Snickers — марка шоколадных батончиков с жареным арахисом, карамелью и нугой, покрытых сверху молочным шоколадом. Продажи Snickers в 2005 году по всему миру ежегодно составляли около 2 миллиардов долларов. В Великобритании, на Острове Мэн и в Ирландии до 1990 года продукт продавался под названием Marathon.",
+      "image": "https://i.imgur.com/jMO4lnz.jpg",
+      "price": 250,
+      "slug": "snicker",
+      "discount": 0,
+      "ratings": 5.0,
+      "category": 1,
+      "category_name": "Snickers"
     },
     {
       "id": 2,
-      "title": "Second post",
-      "datetime": "July 16, 2021 11:47:48 AM",
-      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. two"
+      "title": "Nike Air Yellow",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum doloremque aliquid error dicta consectetur eum aperiam veniam dolorum inventore eos? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum doloremque aliquid error dicta consectetur eum aperiam veniam dolorum inventore eos? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum doloremque aliquid error dicta consectetur eum aperiam veniam dolorum inventore eos?",
+      "image": "https://i.imgur.com/VSJXcCo.jpg",
+      "price": 250,
+      "slug": "nike-air-yellow",
+      "discount": 0,
+      "ratings": 0.0,
+      "category": 1,
+      "category_name": "Snickers"
     },
     {
       "id": 3,
-      "title": "Number Three",
-      "datetime": "July 16, 2021 11:48:01 AM",
-      "body": "Third post... Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "title": "Woman Bag Black",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum doloremque aliquid error dicta consectetur eum aperiam veniam dolorum inventore eos? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum doloremque aliquid error dicta consectetur eum aperiam veniam dolorum inventore eos? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum doloremque aliquid error dicta consectetur eum aperiam veniam dolorum inventore eos?",
+      "image": "https://i.imgur.com/bt0YIYR.jpg",
+      "price": 300,
+      "slug": "woman-bag-black",
+      "discount": 0,
+      "ratings": 3.0,
+      "category": 2,
+      "category_name": "bags"
+    },
+    {
+      "id": 4,
+      "title": "Nike Air Red",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum doloremque aliquid error dicta consectetur eum aperiam veniam dolorum inventore eos? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum doloremque aliquid error dicta consectetur eum aperiam veniam dolorum inventore eos? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum doloremque aliquid error dicta consectetur eum aperiam veniam dolorum inventore eos?",
+      "image": "https://i.imgur.com/D7hkUyF.jpg",
+      "price": 150,
+      "slug": "nike-air-red",
+      "discount": 0,
+      "ratings": 0.0,
+      "category": 1,
+      "category_name": "Snickers"
+    },
+    {
+      "id": 5,
+      "title": "Woman Bag Red",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum doloremque aliquid error dicta consectetur eum aperiam veniam dolorum inventore eos? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum doloremque aliquid error dicta consectetur eum aperiam veniam dolorum inventore eos? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum doloremque aliquid error dicta consectetur eum aperiam veniam dolorum inventore eos?",
+      "image": "https://i.imgur.com/D7hkUyF.jpg",
+      "price": 350,
+      "slug": "woman-bag-red",
+      "discount": 0,
+      "ratings": 0.0,
+      "category": 2,
+      "category_name": "bags"
     },
     {
       "id": 6,
-      "title": "How to become rich",
-      "datetime": "April 16, 2022 2:56:06 AM",
-      "body": "Stop dreaming - this is the truth you have to believe"
+      "title": "Nike Air 36 Miami",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum doloremque aliquid error dicta consectetur eum aperiam veniam dolorum inventore eos? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum doloremque aliquid error dicta consectetur eum aperiam veniam dolorum inventore eos? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum doloremque aliquid error dicta consectetur eum aperiam veniam dolorum inventore eos?",
+      "image": "https://i.imgur.com/zcgNNZy.jpg",
+      "price": 175,
+      "slug": "nike-air-36-miami",
+      "discount": 0,
+      "ratings": 0.0,
+      "category": 1,
+      "category_name": "Snickers"
     },
     {
-      "id": 8,
-      "title": "how to get visa to Afghanistan",
-      "datetime": "April 16, 2022 2:58:59 AM",
-      "body": "lorem ipsum dolor sit amet"
+      "id": 7,
+      "title": "Nike Air Zoom Pegasus",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum doloremque aliquid error dicta consectetur eum aperiam veniam dolorum inventore eos? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum doloremque aliquid error dicta consectetur eum aperiam veniam dolorum inventore eos? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum doloremque aliquid error dicta consectetur eum aperiam veniam dolorum inventore eos?",
+      "image": "https://i.imgur.com/OsRGPzz.jpg",
+      "price": 250,
+      "slug": "nike-air-zoom-pegasus",
+      "discount": 0,
+      "ratings": 0.0,
+      "category": 1,
+      "category_name": "Snickers"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "email": "yiman@gmail.com",
+      "favorite": [
+        {
+          "id": 3,
+          "title": "Woman Bag Black",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum doloremque aliquid error dicta consectetur eum aperiam veniam dolorum inventore eos? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum doloremque aliquid error dicta consectetur eum aperiam veniam dolorum inventore eos? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum doloremque aliquid error dicta consectetur eum aperiam veniam dolorum inventore eos?",
+          "image": "src/assets/images/product/product1.jpg",
+          "price": 300,
+          "slug": "woman-bag-black",
+          "discount": 0,
+          "ratings": 3.0,
+          "category": 2,
+          "category_name": "bags"
+        },
+        {
+          "id": 4,
+          "title": "Nike Air Red",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum doloremque aliquid error dicta consectetur eum aperiam veniam dolorum inventore eos? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum doloremque aliquid error dicta consectetur eum aperiam veniam dolorum inventore eos? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum doloremque aliquid error dicta consectetur eum aperiam veniam dolorum inventore eos?",
+          "image": "../assets/images/product/product1.jpg",
+          "price": 150,
+          "slug": "nike-air-red",
+          "discount": 0,
+          "ratings": 0.0,
+          "category": 1,
+          "category_name": "Snickers"
+        },
+        {
+          "id": 7,
+          "title": "Nike Air Zoom Pegasus",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum doloremque aliquid error dicta consectetur eum aperiam veniam dolorum inventore eos? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum doloremque aliquid error dicta consectetur eum aperiam veniam dolorum inventore eos? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum doloremque aliquid error dicta consectetur eum aperiam veniam dolorum inventore eos?",
+          "image": "../assets/images/product/product1.jpg",
+          "price": 250,
+          "slug": "nike-air-zoom-pegasus",
+          "discount": 0,
+          "ratings": 0.0,
+          "category": 1,
+          "category_name": "Snickers"
+        }
+      ],
+      "cart": [
+        {
+          "id": 2,
+          "title": "Nike Air Yellow",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum doloremque aliquid error dicta consectetur eum aperiam veniam dolorum inventore eos? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum doloremque aliquid error dicta consectetur eum aperiam veniam dolorum inventore eos? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum doloremque aliquid error dicta consectetur eum aperiam veniam dolorum inventore eos?",
+          "image": "../assets/images/product/product1.jpg",
+          "price": 250,
+          "slug": "nike-air-yellow",
+          "discount": 0,
+          "ratings": 0.0,
+          "category": 1,
+          "category_name": "Snickers",
+          "counter": 1
+        },
+        {
+          "id": 5,
+          "title": "Woman Bag Red",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum doloremque aliquid error dicta consectetur eum aperiam veniam dolorum inventore eos? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum doloremque aliquid error dicta consectetur eum aperiam veniam dolorum inventore eos? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum doloremque aliquid error dicta consectetur eum aperiam veniam dolorum inventore eos?",
+          "image": "../assets/images/product/product1.jpg",
+          "price": 350,
+          "slug": "woman-bag-red",
+          "discount": 0,
+          "ratings": 0.0,
+          "category": 2,
+          "category_name": "bags",
+          "counter": 1
+        },
+        {
+          "id": 6,
+          "title": "Nike Air 36 Miami",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum doloremque aliquid error dicta consectetur eum aperiam veniam dolorum inventore eos? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum doloremque aliquid error dicta consectetur eum aperiam veniam dolorum inventore eos? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum doloremque aliquid error dicta consectetur eum aperiam veniam dolorum inventore eos?",
+          "image": "../assets/images/product/product1.jpg",
+          "price": 175,
+          "slug": "nike-air-36-miami",
+          "discount": 0,
+          "ratings": 0.0,
+          "category": 1,
+          "category_name": "Snickers",
+          "counter": 1
+        }
+      ]
     },
     {
-      "id": 9,
-      "title": "Hello!",
-      "datetime": "April 16, 2022 3:00:38 AM",
-      "body": "Hello World!"
+      "id": 2,
+      "favorite": [
+        {
+          "id": 1,
+          "title": "Snicker",
+          "description": "Snickers — марка шоколадных батончиков с жареным арахисом, карамелью и нугой, покрытых сверху молочным шоколадом. Продажи Snickers в 2005 году по всему миру ежегодно составляли около 2 миллиардов долларов. В Великобритании, на Острове Мэн и в Ирландии до 1990 года продукт продавался под названием Marathon.",
+          "image": "../assets/images/product/product1.jpg",
+          "price": 250,
+          "slug": "snicker",
+          "discount": 0,
+          "ratings": 5.0,
+          "category": 1,
+          "category_name": "Snickers"
+        },
+        {
+          "id": 2,
+          "title": "Nike Air Yellow",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum doloremque aliquid error dicta consectetur eum aperiam veniam dolorum inventore eos? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum doloremque aliquid error dicta consectetur eum aperiam veniam dolorum inventore eos? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum doloremque aliquid error dicta consectetur eum aperiam veniam dolorum inventore eos?",
+          "image": "../assets/images/product/product1.jpg",
+          "price": 250,
+          "slug": "nike-air-yellow",
+          "discount": 0,
+          "ratings": 0.0,
+          "category": 1,
+          "category_name": "Snickers"
+        },
+        {
+          "id": 3,
+          "title": "Woman Bag Black",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum doloremque aliquid error dicta consectetur eum aperiam veniam dolorum inventore eos? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum doloremque aliquid error dicta consectetur eum aperiam veniam dolorum inventore eos? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum doloremque aliquid error dicta consectetur eum aperiam veniam dolorum inventore eos?",
+          "image": "../assets/images/product/product1.jpg",
+          "price": 300,
+          "slug": "woman-bag-black",
+          "discount": 0,
+          "ratings": 3.0,
+          "category": 2,
+          "category_name": "bags"
+        }
+      ],
+      "cart": [
+        {
+          "id": 5,
+          "title": "Woman Bag Red",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum doloremque aliquid error dicta consectetur eum aperiam veniam dolorum inventore eos? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum doloremque aliquid error dicta consectetur eum aperiam veniam dolorum inventore eos? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum doloremque aliquid error dicta consectetur eum aperiam veniam dolorum inventore eos?",
+          "image": "../assets/images/product/product1.jpg",
+          "price": 350,
+          "slug": "woman-bag-red",
+          "discount": 0,
+          "ratings": 0.0,
+          "category": 2,
+          "category_name": "bags"
+        },
+        {
+          "id": 6,
+          "title": "Nike Air 36 Miami",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum doloremque aliquid error dicta consectetur eum aperiam veniam dolorum inventore eos? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum doloremque aliquid error dicta consectetur eum aperiam veniam dolorum inventore eos? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum doloremque aliquid error dicta consectetur eum aperiam veniam dolorum inventore eos?",
+          "image": "../assets/images/product/product1.jpg",
+          "price": 175,
+          "slug": "nike-air-36-miami",
+          "discount": 0,
+          "ratings": 0.0,
+          "category": 1,
+          "category_name": "Snickers"
+        },
+        {
+          "id": 7,
+          "title": "Nike Air Zoom Pegasus",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum doloremque aliquid error dicta consectetur eum aperiam veniam dolorum inventore eos? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum doloremque aliquid error dicta consectetur eum aperiam veniam dolorum inventore eos? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum doloremque aliquid error dicta consectetur eum aperiam veniam dolorum inventore eos?",
+          "image": "../assets/images/product/product1.jpg",
+          "price": 250,
+          "slug": "nike-air-zoom-pegasus",
+          "discount": 0,
+          "ratings": 0.0,
+          "category": 1,
+          "category_name": "Snickers"
+        }
+      ]
     }
   ]
 }
